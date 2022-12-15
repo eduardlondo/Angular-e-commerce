@@ -16,15 +16,10 @@ export class AppComponent {
         {
             label: 'Computadoras',
             items: [{
-                    label: 'New', 
-                    icon: 'pi pi-fw pi-plus',
-                    items: [
-                        {label: 'Project'},
-                        {label: 'Other'},
-                    ]
+                    label: 'Computadoras de Escritorio', 
                 },
-                {label: 'Open'},
-                {label: 'Quit'}
+                {label: 'Portatiles'},
+                {label: 'Componentes'}
             ],
             icon: 'pi pi-fw pi-desktop'
         },

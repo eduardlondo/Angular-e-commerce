@@ -1,0 +1,9 @@
+<div class = "grid">
+    <div class = "col mt-4">
+        <p-carousel [value]="banners" [numVisible]="1" [numScroll]="1">
+            <ng-template let-banner pTemplate="item">
+                <img src = "{{banner}}" style = "height: 60vh;width: 100%;">
+            </ng-template>
+        </p-carousel>
+    </div>
+</div>
