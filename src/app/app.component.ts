@@ -28,13 +28,9 @@ export class AppComponent {
             icon: 'pi pi-fw pi-mobile',
         },
         {
-          label: 'Videojuegos',
+          label: 'Consolas de videojuegos',
           icon: 'pi pi-fw pi-stop-circle',
         },
-        {
-          label: 'Software',
-          icon: 'pi pi-fw pi-server',
-        }
     ];
   }
 }
