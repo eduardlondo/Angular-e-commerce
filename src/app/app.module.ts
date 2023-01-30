@@ -12,6 +12,7 @@ import {DropdownModule} from 'primeng/dropdown';
 import {ButtonModule} from 'primeng/button';
 import {RatingModule} from 'primeng/rating';
 import { FormsModule } from '@angular/forms';
+import {TooltipModule} from 'primeng/tooltip';
 @NgModule({
   declarations: [
     AppComponent,

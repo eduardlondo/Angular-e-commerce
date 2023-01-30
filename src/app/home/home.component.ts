@@ -33,8 +33,7 @@ export class HomeComponent {
 
   ngOnInit() {
     this.getCarsLarge().then((data:any) => {
-      console.log(data);
-      this.products = data.data;
+      this.products = data.data.slice(0,9);
     })
   }
 
