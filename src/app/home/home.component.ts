@@ -38,7 +38,7 @@ export class HomeComponent {
   }
 
   getCarsLarge() {
-    return lastValueFrom(this.http.get('/assets/products.json'))
+    return lastValueFrom(this.http.get('assets/jsons/products.json'))
   }
 
   onSortChange(event: any) {
